@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <h1 id="title" class="color-w">Survey Form</h1>
+        <h3 id="sub-title" class="color-w mt-1">Thank you for taking the time to help us improve the platform</h3>
+        <form class="mt-2" method="post">
+            <!-- Inputs in here -->
+            <div id="input-box">
+                <!-- User name -->
+                <label for="user-name" class="color-w">Name</label>
+                <input type="text" placeholder="Enter your name" id="user-name">
+
+                <!-- Email name -->
+                <label for="user-email" class="color-w mt-2">Email</label>
+                <input type="email" placeholder="Enter your email" id="user-email">
+
+                <!-- Age -->
+                <label for="user-age" class="color-w mt-2">Age</label>
+                <input type="text" placeholder="Age" id="user-age">
+            </div>
+
+            <!-- Select -->
+            <div id="select-1-box" class="mt-3">
+                <p class="box-title color-w">Which option best describes your role?</p>
+                <div id="selcect-box" class="mt-1">
+                    <select name="s-1" id="s-1" class="select-box">
+                        <option value="0">Select Current Role</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Radio box -->
+            <div id="radio-box" class="mt-3">
+                <p class="box-title mb-1 color-w">Please select your favorite Web language:</p>
+                <input type="radio" id="Definitely" class="mt-05" name="selcect-1-box">
+                <label for="Definitely" class="color-w">Definitely</label><br>
+                <input type="radio" id="Maybe" class="mt-05" name="selcect-1-box">
+                <label for="Maybe" class="color-w">Maybe</label><br>
+                <input type="radio" id="Not-Sure" class="mt-05" name="selcect-1-box">
+                <label for="Not-Sure" class="color-w">Not Sure</label>
+            </div>
+
+            <!-- Select -->
+            <div id="select-2-box" class="mt-3">
+                <p class="box-title color-w">What is your feeCodeCamp to a freind</p>
+                <div id="selcect-box">
+                    <select name="cars" class="select-box mt-1" id="cars">
+                        <option value="0">Select an option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Check box -->
+            <div id="checkbox-box" class="mt-3">
+                <p class="box-title color-w">What would you like to see improved? (Check all that apply)</p>
+                
+                <input class="checkbox mt-1" type="checkbox" id="vehicle1" name="vehicle1">
+                <label class="color-w" for="vehicle1"> Front-end Projects</label><br>
+
+                <input class="checkbox mt-05" type="checkbox" id="vehicle2" name="vehicle2">
+                <label class="color-w" for="vehicle2"> Back-end Projects</label><br>
+
+                <input class="checkbox mt-05" type="checkbox" id="vehicle3" name="vehicle3">
+                <label class="color-w" for="vehicle3"> Data Visualization</label><br>
+
+                <input class="checkbox mt-05" type="checkbox" id="vehicle4" name="vehicle4">
+                <label class="color-w" for="vehicle4"> Challenges</label><br>
+
+                <input class="checkbox mt-05" type="checkbox" id="vehicle5" name="vehicle5">
+                <label class="color-w" for="vehicle5"> Open Source Community</label><br>
+
+                <input class="checkbox mt-05" type="checkbox" id="vehicle3" name="vehicle6">
+                <label class="color-w" for="vehicle6"> Gitter help rooms</label><br>
+
+                <input class="checkbox mt-05" type="checkbox" id="vehicle3" name="vehicle7">
+                <label class="color-w" for="vehicle7"> Videos</label><br>
+
+                <input class="checkbox mt-05" type="checkbox" id="vehicle3" name="vehicle8">
+                <label class="color-w" for="vehicle8"> City Meetups</label><br>
+
+                <input class="checkbox mt-05" type="checkbox" id="vehicle3" name="vehicle9">
+                <label class="color-w" for="vehicle9"> Wiki</label><br>
+
+                <input class="checkbox mt-05" type="checkbox" id="vehicle3" name="vehicle10">
+                <label class="color-w" for="vehicle10"> Forum</label><br>
+
+                <input class="checkbox mt-05" type="checkbox" id="vehicle3" name="vehicle11">
+                <label class="color-w" for="vehicle11"> Additional Courses</label><br>
+            </div>
+
+            <!-- text area -->
+            <div id="textarea" class="mt-3">
+                <p class="box-title color-w">Any comments or suggestions?</p>
+                <textarea rows="7" class="mt-1" placeholder="Enter your comments here"></textarea>
+            </div>
+
+            <!-- button -->
+            <button id="button" class="mt-3 color-w">Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
